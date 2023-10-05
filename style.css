@@ -7,3 +7,83 @@
 h1{
     color: darkcyan;
 }
+
+.container{
+    width: 90%;
+    margin: auto;
+    padding: 60px;
+    overflow: hidden;
+    
+}
+
+.menu-navegacion{
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+
+}
+
+
+.logo{
+    height: 100px;
+   
+}
+.logo img{
+    display: block;
+    height: 100%;
+   
+}
+
+.enlaces li{
+    list-style: none;
+    display: inline-block;
+    
+}
+
+.enlaces a{
+    text-decoration: none;
+    padding: 10px;
+    color: black;
+   
+}
+
+.enlaces a:hover{
+    color: rgb(126, 167, 243);
+}
+
+i{
+    font-size: 50px;
+    color: green;
+}
+
+button{
+    border: none;
+    background-color: white;
+}
+
+.boton{
+    background-color: aqua;
+    width: 100px;
+    height: 80px;
+    
+}
+
+.boton :hover{
+
+    color: rgb(126, 167, 243);
+    
+}
+
+.boton2, .boton3{
+
+    background-color: aqua;
+    width: 100px;
+    height: 80px;
+
+}
+
+.blue {
+    color: blue;
+}
